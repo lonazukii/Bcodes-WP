@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="511c6721-bf28-4a04-be11-49adeb26c648" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/bcodes/js/boostrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/bcodes/js/main.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/bcodes/assets/css/bootstrap-grid.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/bcodes/assets/css/bootstrap-grid.css.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/bcodes/assets/css/bootstrap-grid.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/bcodes/assets/css/bootstrap-grid.min.css.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/bcodes/assets/css/bootstrap-reboot.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/bcodes/assets/css/bootstrap-reboot.css.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/bcodes/assets/css/bootstrap-reboot.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/bcodes/assets/css/bootstrap-reboot.min.css.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/bcodes/assets/css/bootstrap.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/bcodes/assets/css/bootstrap.css.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/bcodes/assets/css/bootstrap.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/bcodes/assets/css/bootstrap.min.css.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/bcodes/assets/js/bootstrap.bundle.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/bcodes/assets/js/bootstrap.bundle.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/bcodes/assets/js/bootstrap.bundle.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/bcodes/assets/js/bootstrap.bundle.min.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/bcodes/assets/js/bootstrap.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/bcodes/assets/js/bootstrap.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/bcodes/assets/js/bootstrap.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/bcodes/assets/js/bootstrap.min.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/bcodes/footer.php" afterPath="$PROJECT_DIR$/wp-content/themes/bcodes/footer.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/bcodes/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/bcodes/functions.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/bcodes/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/bcodes/header.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/bcodes/index.php" afterPath="$PROJECT_DIR$/wp-content/themes/bcodes/index.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/bcodes/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/bcodes/style.css" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/bcodes/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="76" column="43" lean-forward="false" selection-start-line="76" selection-start-column="43" selection-end-line="76" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/bcodes/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/bcodes/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="129" column="90" lean-forward="false" selection-start-line="129" selection-start-column="90" selection-end-line="129" selection-end-column="90" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/bcodes/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="386">
+              <caret line="177" column="29" lean-forward="false" selection-start-line="177" selection-start-column="29" selection-end-line="177" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap-reboot.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/bcodes/css/bootstrap-reboot.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2730">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap-grid.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/bcodes/css/bootstrap-grid.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-25">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/bcodes/css/bootstrap.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-196">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/bcodes/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="658" column="28" lean-forward="false" selection-start-line="658" selection-start-column="28" selection-end-line="658" selection-end-column="28" />
+              <folding>
+                <element signature="e#467#4004#0#HTML" expanded="false" />
+                <element signature="e#654#706#0#HTML" expanded="true" />
+                <element signature="e#2685#2690#0#HTML" expanded="true" />
+                <element signature="e#3168#3173#0#HTML" expanded="true" />
+                <element signature="e#4423#13164#0#HTML" expanded="false" />
+                <element signature="e#4653#4705#0#HTML" expanded="true" />
+                <element signature="e#13174#22654#0#HTML" expanded="false" />
+                <element signature="e#13260#13465#0#HTML" expanded="true" />
+                <element signature="e#13608#13660#0#HTML" expanded="true" />
+                <element signature="e#22857#22909#0#HTML" expanded="true" />
+                <element signature="e#33562#36427#0#HTML" expanded="false" />
+                <element signature="e#34181#34266#0#HTML" expanded="true" />
+                <element signature="e#34353#34472#0#HTML" expanded="true" />
+                <element signature="e#34495#34516#0#HTML" expanded="true" />
+                <element signature="e#34714#34735#0#HTML" expanded="true" />
+                <element signature="e#34933#34954#0#HTML" expanded="true" />
+                <element signature="e#35152#35173#0#HTML" expanded="true" />
+                <element signature="e#35371#35392#0#HTML" expanded="true" />
+                <element signature="e#35590#35611#0#HTML" expanded="true" />
+                <element signature="e#35809#35830#0#HTML" expanded="true" />
+                <element signature="e#36105#36128#0#HTML" expanded="true" />
+                <element signature="e#36638#36690#0#HTML" expanded="true" />
+                <element signature="e#37543#37565#0#HTML" expanded="true" />
+                <element signature="e#40130#40182#0#HTML" expanded="true" />
+                <element signature="e#40654#40712#0#HTML" expanded="true" />
+                <element signature="e#40853#40934#0#HTML" expanded="true" />
+                <element signature="e#41073#41154#0#HTML" expanded="true" />
+                <element signature="e#41299#41380#0#HTML" expanded="true" />
+                <element signature="e#41521#41602#0#HTML" expanded="true" />
+                <element signature="e#41740#41821#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="boostrap.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/bcodes/js/boostrap.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="6" column="41" lean-forward="false" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+              <folding>
+                <marker date="1528428595000" expanded="true" signature="0:238" ph="/*...*/" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>.grid figure {</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/wp-content/themes/bcodes/js/main.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/bcodes/js/boostrap.min.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/bcodes/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/bcodes/index.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/bcodes/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/bcodes/style.css" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1323" />
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="773" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AngularJS</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="bcodes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bcodes" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="bcodes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bcodes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="bcodes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bcodes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="bcodes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bcodes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bcodes" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="bcodes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bcodes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bcodes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="bcodes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bcodes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bcodes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="511c6721-bf28-4a04-be11-49adeb26c648" name="Default" comment="" />
+      <created>1528425128594</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1528425128594</updated>
+      <workItem from="1528425149601" duration="6950000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="6950000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1323" y="23" width="1280" height="773" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.203125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/wp-content/themes/bcodes/js/main.js</url>
+          <properties lambdaOrdinal="-1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/bcodes/js/navigation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2608">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/bcodes/js/skip-link-focus-fix.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/bcodes/js/boostrap.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="41" lean-forward="false" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+          <folding>
+            <marker date="1528428595000" expanded="true" signature="0:238" ph="/*...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/bcodes/js/customizer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/bcodes/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/bcodes/css/bootstrap-reboot.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2730">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/bcodes/css/bootstrap-grid.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/bcodes/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-196">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/bcodes/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="658" column="28" lean-forward="false" selection-start-line="658" selection-start-column="28" selection-end-line="658" selection-end-column="28" />
+          <folding>
+            <element signature="e#467#4004#0#HTML" expanded="false" />
+            <element signature="e#654#706#0#HTML" expanded="true" />
+            <element signature="e#2685#2690#0#HTML" expanded="true" />
+            <element signature="e#3168#3173#0#HTML" expanded="true" />
+            <element signature="e#4423#13164#0#HTML" expanded="false" />
+            <element signature="e#4653#4705#0#HTML" expanded="true" />
+            <element signature="e#13174#22654#0#HTML" expanded="false" />
+            <element signature="e#13260#13465#0#HTML" expanded="true" />
+            <element signature="e#13608#13660#0#HTML" expanded="true" />
+            <element signature="e#22857#22909#0#HTML" expanded="true" />
+            <element signature="e#33562#36427#0#HTML" expanded="false" />
+            <element signature="e#34181#34266#0#HTML" expanded="true" />
+            <element signature="e#34353#34472#0#HTML" expanded="true" />
+            <element signature="e#34495#34516#0#HTML" expanded="true" />
+            <element signature="e#34714#34735#0#HTML" expanded="true" />
+            <element signature="e#34933#34954#0#HTML" expanded="true" />
+            <element signature="e#35152#35173#0#HTML" expanded="true" />
+            <element signature="e#35371#35392#0#HTML" expanded="true" />
+            <element signature="e#35590#35611#0#HTML" expanded="true" />
+            <element signature="e#35809#35830#0#HTML" expanded="true" />
+            <element signature="e#36105#36128#0#HTML" expanded="true" />
+            <element signature="e#36638#36690#0#HTML" expanded="true" />
+            <element signature="e#37543#37565#0#HTML" expanded="true" />
+            <element signature="e#40130#40182#0#HTML" expanded="true" />
+            <element signature="e#40654#40712#0#HTML" expanded="true" />
+            <element signature="e#40853#40934#0#HTML" expanded="true" />
+            <element signature="e#41073#41154#0#HTML" expanded="true" />
+            <element signature="e#41299#41380#0#HTML" expanded="true" />
+            <element signature="e#41521#41602#0#HTML" expanded="true" />
+            <element signature="e#41740#41821#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/bcodes/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="129" column="90" lean-forward="false" selection-start-line="129" selection-start-column="90" selection-end-line="129" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/bcodes/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="76" column="43" lean-forward="false" selection-start-line="76" selection-start-column="43" selection-end-line="76" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/bcodes/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="177" column="29" lean-forward="false" selection-start-line="177" selection-start-column="29" selection-end-line="177" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
