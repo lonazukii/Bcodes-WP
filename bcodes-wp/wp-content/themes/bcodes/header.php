@@ -20,9 +20,9 @@ global $opt_settings;
     <?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
+<body data-spy="scroll" data-target=".navbar" data-offset="50" <?php body_class(); ?>>
 
-<nav class="navbar navbar-light navbar-expand-lg fixed-top navbar-default menu-top">
+<nav class="navbar navbar-dark navbar-expand-lg fixed-top navbar-default menu-top">
     <div class="container">
         <a class="navbar-brand" href="<?= home_url() ?>">
             <img src="<?php echo $opt_settings['logo']['url'] ?>" alt="">
@@ -36,14 +36,15 @@ global $opt_settings;
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <?php
+            <?php            
                 wp_nav_menu( 
                     array(
-                    'theme_location' => 'menu-1',
-                    'container' => 'ul',
-                    'menu_class' => 'sf-menu navbar-nav ml-auto',
-                    'menu_id' => 'primary-menu',
-                ));
+                        'theme_location' => 'menu-1',
+                        'container' => 'ul',
+                        'menu_class' => 'sf-menu navbar-nav ml-auto',
+                        'menu_id' => 'primary-menu',
+                    )
+                );
             ?>
         </div>
 
@@ -51,7 +52,7 @@ global $opt_settings;
 </nav>
 
 <?php if (is_front_page()): ?>
-<div id="carouselExampleControls" class="carousel" data-ride="carousel">
+<div id="home" class="carousel" data-ride="carousel">
         <div class="carousel-inner">
                 <?php $index = 0 ?>
             <?php foreach ($opt_settings['slide-top'] as $field): ?>

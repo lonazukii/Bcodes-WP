@@ -4,8 +4,7 @@
  */
 get_header();
 ?>
-<div id="">
-    <section id="service" class="service-content">
+    <section id="service" class="service-content section">
         <div class="container">
             <div class="row text-center">
                 <div class="section-title wow zoomIn" style="visibility: visible; animation-name: zoomIn;">
@@ -13,20 +12,15 @@ get_header();
                     <span></span>
                     <?php echo "<p>".$opt_settings['service-details']."</p>"; ?><p></p>
                 </div>
-
-                <?php 
-                foreach ($opt_settings['service-content'] as $conten) {
-                    echo "
+                <?php foreach (get_posts(array("post_type" => 'category','post_status' => 'publish','order' => 'ASC','numberposts'=> 6)) as $category) :?>
                     <div class='col-xs-12 col-sm-6 col-lg-4'>
-                    <div class='single_service'>
-                    <i class='".$conten ['url']."'></i>
-                    <h4>".$conten ['title']."</h4>
-                    <p>".$conten ['description']."</p>
-                    </div>
-                    </div>
-                    ";
-                }
-                ?><!-- END COL-->
+                        <div class='single_service'>
+                            <i class='<?= get_the_terms($category->ID,'icon_class')[0]->name ?>'></i>
+                            <h4> <?= $category->post_title ?>   </h4>
+                            <p>  <?= $category->post_content ?> </p>
+                        </div><!--- END GRID -->
+                    </div><!--- END COL -->
+                <?php endforeach; ?>
             </div><!-- END ROW-->
         </div><!-- END CONTAINER-->
     </section>
@@ -40,7 +34,7 @@ get_header();
         </div><!--- END CONTAINER -->
     </section>
 
-    <section id="portfolio" class="portfolio section-padding">
+    <section id="portfolio" class="portfolio section-padding section">
         <div class="container-fluid">
             <div class="row">
                 <div class="section-title text-center wow zoomIn title-portfolio">
@@ -71,8 +65,9 @@ get_header();
         </div><!--- END CONTAINER-FLUID -->
     </section>
 
-    <section id="testimonial" class="client-testimonial section-padding" style="background-image:
-    url(<?= $opt_settings['bgtesti']['url'] ?>),linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.6))">
+    <section id="testimonial" class="client-testimonial section-padding section"
+             style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.6)), 
+    url(<?= $opt_settings['bgtesti']['url'] ?>)">
         <div class="container">
             <div class="row text-center">
                 <div class="section-title  wow zoomIn">
@@ -111,7 +106,7 @@ get_header();
         </div><!--- END CONTAINER -->
     </section>
 
-    <section id="team" class="our_team section-padding">
+    <section id="team" class="our_team section-padding section">
         <div class="container">
             <div class="row text-center">
                 <div class="section-title wow zoomIn" style="visibility: visible; animation-name: zoomIn;">
@@ -142,7 +137,7 @@ get_header();
         </div><!-- END CONTAINER -->
     </section>
 
-    <section id="partner" class="partner-logo section-padding">
+    <section id="partner" class="partner-logo section-padding section">
         <div class="container">
             <div class="row">
                 <div class="section-title text-center">
@@ -175,7 +170,7 @@ get_header();
         </div><!-- END CONTAINER  -->
     </section>
 
-    <section id="comment" class="contact_area section-padding">
+    <section id="contact" class="contact_area section-padding section">
         <div class="container">
             <div class="row">
                 <div class="section-title text-center wow zoomIn" style="visibility: visible; animation-name: zoomIn;">
@@ -184,85 +179,80 @@ get_header();
                     <p><?= $opt_settings['desc-comment'] ?></p>
                 </div>
 
-                <div class="col-md-12 col-sm-12 col-xs-12">
-                    <div class="contact">
-                        <div id="contact-form">
-                            <div role="form" class="wpcf7" id="wpcf7-f5-p7-o1" lang="en-US" dir="ltr">
-                                <div class="screen-reader-response"></div>
-                                <?php echo do_shortcode('[contact-form-7 id="5" title="Contact form 1"]'); ?>
-                            </div>
-                        </div>
-                    </div>
-                </div><!-- END COL -->
-            </div><!--- END ROW -->
-        </div><!--- END CONTAINER -->
-    </section>
-
-    <section class="work-schedule section-padding">
-        <div class="container">
-            <div class="wrap-columns">
-                <div class="col-sm-12">
-                    <div class="schedule">
-                        <div class="row">
-                            <div class="col-md-3 col-sm-6 col-xs-12">
-                            <div class="single_address text-center">
-                                <div class="icons">
-                                 <img src="<?= $opt_settings['icon-phone']['url']?>">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="contact">
+                                <div id="contact-form">
+                                    <div role="form" class="wpcf7" id="wpcf7-f5-p7-o1" lang="en-US" dir="ltr">
+                                        <div class="screen-reader-response"></div>
+                                        <?php echo do_shortcode('[contact-form-7 id="5" title="Contact form 1"]'); ?>
+                                    </div>
                                 </div>
-                                <?php foreach ($opt_settings['text-phone'] as $text) {
-                                    echo"
-                                       <p>$text</p>
-                                    ";
-                                }?>
                             </div>
-                        </div><!-- END COL  -->
-
-                        <div class="col-md-3 col-sm-6 col-xs-12">
-                            <div class="single_address text-center">
-                                <div class="icons">
-                                 <img src="<?= $opt_settings['icon-time']['url']?>">
+                        </div><!-- END COL --> 
+                    </div> 
+                    <div class="col-md-6">
+                        <div class="info">
+                            <div class="row">
+                                <div class="col-md-6">
+                                <div class="single_address text-center">
+                                    <div class="icons">
+                                        <img src="<?= $opt_settings['icon-phone']['url']?>">
+                                    </div>
+                                    <?php foreach ($opt_settings['text-phone'] as $text) {
+                                        echo"
+                                           <p>$text</p>
+                                        ";
+                                    }?>
                                 </div>
-                                <?php foreach ($opt_settings['text-time'] as $text) {
-                                    echo"
-                                       <p>$text</p>
-                                    ";
-                                }?>
                             </div>
-                        </div><!-- END COL  -->
 
-                        <div class="col-md-3 col-sm-6 col-xs-12">
-                            <div class="single_address text-center">
-                                <div class="icons">
-                                 <img src="<?= $opt_settings['icon-email']['url']?>">
+                            <div class="col-md-6">
+                                <div class="single_address text-center">
+                                    <div class="icons">
+                                        <img src="<?= $opt_settings['icon-time']['url']?>">
+                                    </div>
+                                    <?php foreach ($opt_settings['text-time'] as $text) {
+                                        echo"
+                                           <p>$text</p>
+                                        ";
+                                    }?>
                                 </div>
-                                <?php foreach ($opt_settings['text-email'] as $text) {
-                                    echo"
-                                       <p>$text</p>
-                                    ";
-                                }?>
                             </div>
-                        </div><!-- END COL  -->
 
-                        <div class="col-md-3 col-sm-6 col-xs-12">
-                            <div class="single_address text-center">
-                                <div class="icons">
-                                 <img src="<?= $opt_settings['icon-address']['url']?>">
+                            <div class="col-md-6">
+                                <div class="single_address text-center">
+                                    <div class="icons">
+                                        <img src="<?= $opt_settings['icon-email']['url']?>">
+                                    </div>
+                                    <?php foreach ($opt_settings['text-email'] as $text) {
+                                        echo"
+                                           <p>$text</p>
+                                        ";
+                                    }?>
                                 </div>
-                                <?php foreach ($opt_settings['text-address'] as $text) {
-                                    echo"
-                                       <p>$text</p>
-                                    ";
-                                }?>
                             </div>
-                        </div><!-- END COL  -->
+
+                            <div class="col-md-6">
+                                <div class="single_address text-center">
+                                    <div class="icons">
+                                        <img src="<?= $opt_settings['icon-address']['url']?>">
+                                    </div>
+                                    <?php foreach ($opt_settings['text-address'] as $text) {
+                                        echo"
+                                           <p>$text</p>
+                                        ";
+                                    }?>
+                                </div>
+                            </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+            </div><!--- END ROW -->
+        </div><!--- END CONTAINER -->
     </section>
-
     <section id="maps"><?= $opt_settings['adress'] ?></section>
-</div>
 <?php
 get_footer();

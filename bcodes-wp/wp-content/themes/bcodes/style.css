@@ -302,9 +302,10 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 }
 /* Contact Form */
 .contact{
-	padding-left: 50px;
-	padding-right: 60px;
-	padding-top: 30px;
+	background: #0097a7;
+  	color:#fff;
+  	border-radius: 10px;
+  	padding:30px;
 }
 .wpcf7-form p label {
 	display: inline-block;
@@ -320,7 +321,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	height: 52px;
 	padding: 10px;
 	font-family: montserrat,sans-serif;
-	width: 479px;
+	width: 460px;
 }
 .contact textarea{
 	height: 200px !important;
@@ -345,16 +346,8 @@ input[type="text"]:hover,input[type="email"]:hover,input[type="password"]:hover,
 	background: #00BAD7;	
 	color:#fff;
 }
-/* Work Schedule */
-.work-schedule {
-	background: #f7f7f7;
-}
-.wrap-columns {
-	width: calc(100% + 30px);
-}
-.schedule {
-	display: inline-flex;
-	margin: 0 20px 0 -10px;
+.info{
+	padding: 40px 10px;
 }
 .single_address {
 	background: #fff none repeat scroll 0 0;
@@ -543,7 +536,7 @@ html,body{height:100%;}
     color: #fff;
 }
 /*END SCROLL TO TOP*/
-.section-padding { padding: 60px 0 }
+.section-padding { padding: 90px 0 }
 /*START SECTION TITLE DESIGN*/
 .section-title { margin-bottom: 60px }
 .section-title  h2 {
@@ -627,7 +620,7 @@ html,body{height:100%;}
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form { border-color: #fff }
-.menu-top li a {color: #fff !important;font-family: lato,sans-serif;font-size: 12px;letter-spacing: 2px;text-transform: uppercase;font-weight: 600;}
+.menu-top li a {color: #fff ;font-family: lato,sans-serif;font-size: 12px;letter-spacing: 2px;text-transform: uppercase;font-weight: 600;}
 .menu-top li a:hover { color: #00BAD7!important }
 @media only screen and (max-width:768px) { 
     .navbar-default .navbar-nav > li > a {
@@ -651,7 +644,7 @@ html,body{height:100%;}
         margin-left: 0px;
     }
 }
-.navbar-default.menu-shrink li a {color: #333 !important; }
+.navbar-default.menu-shrink li a {color: #333 }
 /*.navbar-default.menu-shrink li a:hover { color: #fff !important }*/
 .navbar-default .navbar-toggle { background: #fff none repeat scroll 0 0 }
 .navbar-default .navbar-toggle:hover,

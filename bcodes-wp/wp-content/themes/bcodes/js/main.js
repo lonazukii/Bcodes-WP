@@ -4,14 +4,21 @@ jQuery(window).scroll(function() {
     if (jQuery(document).scrollTop() > 50) {
         jQuery('.navbar').addClass('menu-shrink');
         jQuery('.topcontrol').css({display:'block'});
+        jQuery('.nav-link').css({color:'#000'});
     } else {
         jQuery('.navbar').removeClass('menu-shrink');
         jQuery('.topcontrol').css({display:'none'});
+        jQuery('.nav-link').css({color:'#fff'});
     }
 });
-jQuery(document).ready(function(){
-	new WOW().init();
 
+jQuery(document).ready(function(){
+	// Active WOW Animation
+	new WOW().init();
+	// Navbar Custom
+	$('.menu-item a').addClass('nav-link');
+  	$('.nav-link').css({color:'#fff'});
+	// OWL Carousel Custom
 	$('.testimoni-carousel').owlCarousel({
 			center:true,
 			loop:true,
@@ -45,14 +52,16 @@ jQuery(document).ready(function(){
       		nav:true,
       		dots: false,
 		});
+	// Smooth Scroll
 	$('#primary-menu > li a').click(function(e) {
 		e.preventDefault();
     	var sectionTo = $(this).attr('href');
     	console.log(sectionTo);
     		$('html, body').animate({
       			scrollTop: $(sectionTo).offset().top - 80
-    		}, 1500);
+    		}, 1000);
 		});
+	//Go back to Top Button
 	$('#topcontrol').click(function(e) {
 		e.preventDefault();
     		$('html, body').animate({
@@ -60,4 +69,5 @@ jQuery(document).ready(function(){
     		}, 600);
 		});
 	});
+	
 })(jQuery)
